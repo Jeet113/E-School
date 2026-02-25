@@ -1,0 +1,300 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.back {
+    background-color: #F0FFF0;
+    width: 1490px;
+    height: 649px;
+}
+
+.logo {
+    width: 198px;
+    height: 59px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: 212px;
+    margin-right: 112px;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.tags a {
+    padding: 5px;
+    height: 34px;
+    width: 57px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.tags a:hover {
+    color: #2d6a4f;
+}
+
+.tags button {
+    background-color: #21B573;
+    width: 104px;
+    height: 43px;
+    border-radius: 33px;
+    color: white;
+    border: #F0FFF0 solid 1px;
+    padding: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.tags button:hover {
+    background-color: #1bd380;
+}
+
+.content button {
+    background-color: #21B573;
+    width: 104px;
+    height: 43px;
+    border-radius: 33px;
+    color: white;
+    border: #F0FFF0 solid 1px;
+    padding: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.content button:hover {
+    background-color: #1bd380;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 112px;
+    margin-left: 212px;
+    margin-top: 100px;
+}
+
+.heroImage {
+    width: 554px;
+    height: 346px;
+    margin-right: 20px;
+}
+
+.re {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.head {
+    width: 350px;
+    height: 140px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0%;
+}
+
+.lor {
+    width: 405px;
+    height: 85px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #6C6B6B;
+}
+
+.playcard img {
+    width: 66px;
+    height: 85px;
+}
+
+.playcard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.div-1 {
+    height: 277px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+
+.div-2 {
+    height: 277px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px 0px #0000001A;
+
+}
+
+.div-3 {
+    height: 277px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+
+.div-4 {
+    height: 277px;
+    width: 277px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+
+.topic {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    color: #413960;
+    margin-top: 10px;
+}
+
+.small {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -10px;
+    color: #585859;
+}
+
+.Online h1 {
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 36px;
+    color: #413960;
+    margin-bottom: 90px;
+    text-align:center ;
+}
+.Online{
+    margin-top: 100px;
+}
+.course{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+
+}
+
+.divcourse button {
+    background-color: #21B573;
+    width: 104px;
+    height: 43px;
+    border-radius: 33px;
+    color: white;
+    border: #F0FFF0 solid 1px;
+    padding: 2px;
+    margin-left: 4px;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.divcourse button:hover {
+    background-color: #1bd380;
+}
+
+.divcourse img{
+    width: 331px;
+    height: 234px;
+    border-radius: 11px;
+    transition: 0.3s ease;
+}
+.divcourse img:hover{
+    box-shadow: 0px 0px 25px #CFB6B6;
+}
+.divcourse {
+    width: 370px;
+    height: 484px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    background-color: #ffffff;
+    padding: 20px 20px;
+}
+.m{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.des {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -10px;
+    color: #585859;
+    margin-left: 4px;
+}
+.divcourse span{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+.date p{
+    margin:0;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #585859;
+    font-size: 16px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.Test{
+    margin-top: 100px;
+}
+.Test h1 {
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 90px;
+    text-align:center ;
+}
